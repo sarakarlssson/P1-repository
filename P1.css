@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Font';
+    src: url(bilder/Inter.ttf);
+}
+
+body {
+    font-family: Font;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.503);
+    padding-bottom: 10px;
+    font-size: 13.5px;
+}
+
+.linkstyle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navlinks {
+    display: flex;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.navlinks:hover {
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 5px;
+    margin: 0;
+}
+
+.get-barky-free {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#barkypic {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.linkarrow {
+    margin: 5px;
+}
+
+.navbar p {
+    margin: 0;
+    border-radius: 5px;
+    text-align: center;
+    border
+}
+
+/* HÄR SLUTAR NAVBAR */
