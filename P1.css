@@ -5,14 +5,20 @@
 
 body {
     font-family: Font;
+    margin: 0;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px rgba(128, 128, 128, 0.503);
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 13.5px;
+    position: fixed;
+    right:0;
+    left:0;
+    background-color: white;
+
 }
 
 .linkstyle {
@@ -67,13 +73,18 @@ body {
 
 /* HÄR SLUTAR NAVBAR */
 
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+
 /* Header */
 
 .header {
     display: flex;
     width: 800px;
     margin: auto;
-    padding: 50px;
+    padding: 100px 0px 50px 0px;
 }
 
 #header-pic {
@@ -89,4 +100,19 @@ body {
     margin-bottom: 20px;
     padding-top: 10px;
     font-size: 12px;
+}
+/* Header slutar här */
+
+/* Companys */
+
+.company{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    border-top: solid 1px rgba(128, 128, 128, 0.277);
+    border-bottom: solid 1px rgba(128, 128, 128, 0.277);
+}
+.company img{
+    width: 80px;
+    padding: 10px;
 }
