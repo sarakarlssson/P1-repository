@@ -144,7 +144,7 @@ body {
     color: #999999;
 }
 .section-img{
-    width: 800px;
+    width: 100%;
     border-radius: 8px;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
@@ -152,7 +152,9 @@ body {
     color: #999999;
     text-align: center;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 30px;
+    font-weight: 450;
+    padding: 20px 0px;
 }
 
 .author{
@@ -167,5 +169,9 @@ height:40px;
 .author h6,p{
     margin: 0;
     font-size: 12px;
+}
+
+.author-text{
+    margin-left: 5px;
 }
 
