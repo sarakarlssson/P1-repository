@@ -97,9 +97,16 @@ body {
 
 .textbox p {
     margin-top: 0;
-    margin-bottom: 20px;
     padding-top: 10px;
     font-size: 12px;
+}
+
+.textbox .get-barky-free{
+    margin:30px 0px;
+}
+
+.sub-text{
+    padding: 30px 0px;;
 }
 /* Header slutar här */
 
@@ -116,3 +123,44 @@ body {
     width: 80px;
     padding: 10px;
 }
+
+/* Companys SLUTAR HÄR */
+
+/* SEKTION 1 BÖRJAR HÄR*/
+.section{
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+.section-text{
+    width: 50%;
+}
+.section p {
+    color: #999999;
+}
+.section-img{
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.text-under-img{
+    color: #999999;
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.author img{
+height:40px;
+}
+
+.author h6,p{
+    margin: 0;
+    font-size: 12px;
+}
+
