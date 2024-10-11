@@ -49,6 +49,10 @@ body {
     margin: 0;
 }
 
+.get-barky-free:hover{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
 #barkypic {
     width: 100px;
     padding: 10px;
@@ -87,8 +91,8 @@ body {
     padding: 100px 0px 50px 0px;
 }
 
-#header-pic {
-    width: 100%;
+#header-pic, .textbox {
+    width: 50%;
 }
 
 .textbox h1 {
@@ -98,7 +102,7 @@ body {
 .textbox p {
     margin-top: 0;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .textbox .get-barky-free{
@@ -106,7 +110,7 @@ body {
 }
 
 .sub-text{
-    padding: 30px 0px;;
+    padding: 30px 0px;
 }
 /* Header slutar här */
 
@@ -134,6 +138,7 @@ body {
 }
 .section-text{
     width: 50%;
+    padding-bottom: 30px;
 }
 .section p {
     color: #999999;
