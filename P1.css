@@ -160,7 +160,8 @@ body {
 
 .same-text {
     color: #999999;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
 }
 
 .section-img {
@@ -172,26 +173,32 @@ body {
 .text-under-img {
     color: #999999;
     text-align: center;
-    font-weight: normal;
-    font-size: 30px;
-    font-weight: 450;
-    padding: 20px 0px;
+    font-size: 36px;
+    font-weight: 550;
 }
 
 .author {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .author img {
-    height: 40px;
+    height: 50px;
 }
 
-.author h6,
-p {
+.author-name {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.author-title {
     margin: 0;
     font-size: 12px;
+    font-weight: 350;
+    color: #7f7f7f;
 }
 
 .author-text {
@@ -248,8 +255,12 @@ p {
 .free-plan {
     border-top: solid 1px lightgrey;
     border-bottom: solid 1px lightgrey;
-    ;
-    padding: 70px 0px;
+    padding: 80px 0px;
+
+}
+
+.less-padding-under-text {
+    padding: 0px;
 }
 
 /*Building boxes*/
