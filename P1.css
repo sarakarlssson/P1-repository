@@ -43,13 +43,14 @@ body {
     background-color: black;
     color: white;
     padding: 10px;
+    font-size: 15px;
     display: inline;
     border-radius: 5px;
     margin: 0;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
-.get-barky-free:hover{
+.get-barky-free:hover {
     background-color: rgba(0, 0, 0, 0.83);
 }
 
@@ -77,47 +78,52 @@ body {
 
 /* HÄR SLUTAR NAVBAR */
 
-.container{
+.container {
     max-width: 1000px;
-    margin:auto;
+    margin: auto;
 }
 
 /* Header */
 
 .header {
     display: flex;
-    width: 800px;
+    gap: 30px;
+    width: 100%;
     margin: auto;
     padding: 100px 0px 50px 0px;
 }
 
-#header-pic, .textbox {
+#header-pic {
+    width: 50%;
+    object-fit: contain;
+    /* bilden krymper med webbläsarfönstret */
+}
+
+.textbox {
     width: 50%;
 }
 
 .textbox h1 {
     margin-bottom: 0;
+    font-size: 53px;
 }
 
-.textbox p {
-    margin-top: 0;
-    padding-top: 10px;
-    font-size: 13px;
+.textbox .get-barky-free {
+    margin: 30px 0px;
 }
 
-.textbox .get-barky-free{
-    margin:30px 0px;
-}
-
-.sub-text{
+.sub-text {
     padding: 30px 0px;
+    font-size: 15px;
+    font-weight: 320;
 }
+
 /* Header slutar här */
 
 /* Companys */
 
-.company{
-    width: 800px;
+.company {
+    width: 100%;
     margin: auto;
     text-align: center;
     border-top: solid 1px rgba(128, 128, 128, 0.277);
@@ -126,7 +132,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-.company img{
+
+.company img {
     width: 80px;
     object-fit: contain;
     padding: 10px 8px 12px 24px;
@@ -135,25 +142,28 @@ body {
 /* Companys SLUTAR HÄR */
 
 /* SEKTION 1 BÖRJAR HÄR*/
-.section{
-    width: 800px;
+.section {
+    width: 100%;
     margin: auto;
-    padding: 40px;
 }
-.section-text{
+
+.section-text {
     width: 50%;
     padding-bottom: 10px;
 }
+
 .grey-text {
     color: #999999;
     padding-bottom: 20px;
 }
-.section-img{
+
+.section-img {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
-.text-under-img{
+
+.text-under-img {
     color: #999999;
     text-align: center;
     font-weight: normal;
@@ -162,30 +172,36 @@ body {
     padding: 20px 0px;
 }
 
-.author{
+.author {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.author img{
-height:40px;
+
+.author img {
+    height: 40px;
 }
 
-.author h6,p{
+.author h6,
+p {
     margin: 0;
     font-size: 12px;
 }
 
-.author-text{
+.author-text {
     margin-left: 5px;
 }
 
-.section-text h2{
+.section-text h2 {
     margin: 0;
     padding-bottom: 10px;
 }
 
-.header-in-center{
+.section-text {
+    padding-bottom: 70px;
+}
+
+.header-in-center {
     text-align: center;
     margin: auto;
 }
@@ -193,25 +209,127 @@ height:40px;
 /* Checkbox */
 
 .checkbox-container {
-    background-color: rgb(244, 242, 242);
+    background-color: #f4f4f4;
     border-radius: 10px;
     padding: 20px;
     width: 70%;
     margin: auto;
 }
 
-.checkbox-frame{
+.checkbox-frame {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px lightgray;
     padding: 10px;
-    padding-left:0;
+    padding-left: 0;
 }
 
-.checkbox-img{
-    width: 10px;
+#checkbox-text-right {
+    color: black;
 }
 
-.checkbox-text{
-    padding-left:0;
+.checkbox-img {
+    width: 17px;
 }
+
+.checkbox-text {
+    padding-left: 0;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+#last-frame-no-border {
+    border-bottom: 0;
+}
+
+.free-plan {
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+    ;
+    padding: 70px 0px;
+}
+
+/*Building boxes*/
+
+.building-container {
+    padding: 50px 0px;
+}
+
+.building-text {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.building-text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.building-text p {
+    color: #7f7f7f;
+}
+
+.building-boxes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.building-box {
+    width: 30%;
+    text-align: center;
+}
+
+.building-box p {
+    font-size: 13px;
+    color: #7f7f7f;
+}
+
+.building-box a {
+    color: black;
+}
+
+.building-box h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.border-right {
+    border-right: solid 1px lightgray;
+}
+
+#box-space1 {
+    padding-left: 20px;
+}
+
+/* RATINGS */
+
+.dogs-love-us {
+    text-align: center;
+    font-size: 36px;
+}
+
+.ratings-container {
+    display: flex;
+    gap: 50px;
+}
+
+.ratings-img {
+    width: 50%;
+}
+
+#ratings-header {
+    font-size: 24px;
+}
+
+#ratings-sub-text {
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-right: 30px;
+}
+
+.ratings-text {
+    width: 50%;
+}
+
+
+/* PERCENT BÖRJAR HÄR*/
