@@ -5,6 +5,7 @@
 
 body {
     font-family: Font;
+    margin: 0;
 }
 
 .navbar {
@@ -20,6 +21,11 @@ body {
 
 }
 
+.link {
+    color: black;
+    text-decoration: none;
+}
+
 .linkstyle {
     display: flex;
     align-items: center;
@@ -31,6 +37,7 @@ body {
     border-radius: 5px;
     margin: 0;
     padding: 10px;
+    font-size: 13px;
 }
 
 .navlinks:hover {
@@ -44,9 +51,9 @@ body {
     color: white;
     padding: 10px;
     font-size: 15px;
-    display: inline;
+    width: 105px;
     border-radius: 5px;
-    margin: 0;
+    margin: auto;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -333,3 +340,101 @@ p {
 
 
 /* PERCENT BÖRJAR HÄR*/
+
+.percent-container {
+    display: flex;
+    justify-content: space-around;
+    color: #7f7f7f;
+    text-align: center;
+}
+
+.percent-header {
+    font-size: 45px;
+    margin: 0;
+}
+
+.percent-sub-text {
+    font-size: 13px;
+
+}
+
+.percent-border-right {
+    border-right: solid 1px lightgrey;
+}
+
+.percent-boxes {
+    padding: 0px 71px;
+}
+
+/* SUBSCRIPTION BÖRJAR HÄR*/
+
+.subscription-container {
+    text-align: center;
+}
+
+#get-barky-free-subscription {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*FOOTER BÖRJAR HÄR */
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 50px 100px;
+    border-top: solid 1px lightgray;
+}
+
+.images-container {}
+
+.menu-container {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+
+.socials-container {
+    width: 25%;
+}
+
+.social-medias {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#barky-img {
+    width: 100px;
+}
+
+.socials-img {
+    width: 18px;
+}
+
+.footer-text-container {
+    padding-top: 30px;
+}
+
+.footer-text {
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+.menu-boxes {
+    color: grey;
+}
+
+.menu-boxes-header {
+    color: black;
+    font-weight: 550;
+}
+
+.menu-boxes a {
+    padding: 7px 0px;
+    font-size: 13px;
+    display: block;
+    color: #7f7f7f;
+    text-decoration: none;
+}
