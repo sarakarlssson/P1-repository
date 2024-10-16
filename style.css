@@ -25,7 +25,6 @@ body {
     right: 20px;
     left: 20px;
 
-    border-bottom: solid 1px rgba(128, 128, 128, 0.503);
     background-color: white;
     padding: 10px 0px;
 }
@@ -381,6 +380,12 @@ body {
 
 /*FOOTER BÖRJAR HÄR */
 
+footer {
+    left: 20px;
+    position: absolute;
+    right: 20px;
+}
+
 .footer-container {
     max-width: 1200px;
     margin: auto;
@@ -570,7 +575,6 @@ body {
     .footer-container {
         flex-direction: column;
         padding: 80px 30px 30px 30px;
-
     }
 
     .socials-container {
