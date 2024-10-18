@@ -67,6 +67,7 @@ body {
 
 .get-barky-free:hover {
     background-color: rgba(0, 0, 0, 0.83);
+    cursor: pointer;
 }
 
 .link-arrow {
@@ -146,7 +147,7 @@ body {
 }
 
 .company img {
-    width: 100px;
+    height: 21px;
     object-fit: contain;
     padding: 10px 0px;
 }
@@ -282,6 +283,10 @@ body {
     color: #7f7f7f;
     font-weight: 320;
     padding: 0px 15px;
+}
+
+span {
+    text-decoration: underline;
 }
 
 .building-boxes-container {
@@ -450,7 +455,7 @@ footer {
 
 #hamburger {
     width: 20px;
-    padding-right: 20px;
+    margin-right: 10px;
     display: none;
 }
 
@@ -474,6 +479,10 @@ footer {
 
     #hamburger {
         display: initial;
+    }
+
+    #hamburger:hover {
+        cursor: pointer;
     }
 
     /* HEADER */
@@ -504,6 +513,7 @@ footer {
     .get-barky-free {
         margin: auto;
         display: inline-block;
+
     }
 
     /* SEKTION 1,2,3 */
@@ -594,4 +604,5 @@ footer {
     .menu-boxes-header {
         margin: 0;
     }
+
 }
